@@ -3,7 +3,7 @@
 
 // Import files
 include <./config.scad>
-use <./parts/connectors/headerM/header.scad>
+use <./parts/connectors/headerM/part.scad>
 
 
 // Pin header modules
