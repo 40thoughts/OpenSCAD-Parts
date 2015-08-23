@@ -14,7 +14,7 @@ module pin(h_dia=0.9, p_len=6, shape=true) {
 		}
 
 		color(sup_color, sup_tr) {
-			translate([-(sup_wid / 2), -(sup_len / 2), 0]) linear_extrude(height = sup_hei) polygon([[sup_bev_wid,0], [(sup_wid - sup_bev_wid),0], [sup_wid,sup_bev_wid], [sup_wid,(sup_len - sup_bev_wid)], [(sup_wid - sup_bev_wid),sup_len], [sup_bev_wid,sup_len], [0,(sup_len - sup_bev_wid)], [0,sup_bev_wid]], convexity = N);
+			translate([-(sup_wid / 2), -(sup_len / 2), 0]) linear_extrude(height = sup_hei) polygon([[sup_bev_wid,0], [(sup_wid - sup_bev_wid),0], [sup_wid,sup_bev_wid], [sup_wid,(sup_len - sup_bev_wid)], [(sup_wid - sup_bev_wid),sup_len], [sup_bev_wid,sup_len], [0,(sup_len - sup_bev_wid)], [0,sup_bev_wid]], convexity = 10);
 		}
 	}
 
