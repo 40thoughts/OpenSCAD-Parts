@@ -9,7 +9,7 @@ pcb_tr=1;		// PCB transparency (0 to 1)
 
 // Variables
 
-$fn=20;				// Resolution (faces per side on cylinders, cones, ...)
+$fn=20;			// Resolution (faces per side on cylinders, cones, ...)
 pcb_th=1.6;		// PCB thickness
 h_dia=3.2;		// Holes diameter
 h1=[15, 50.5];		// Hole 1 position (X, Y)
