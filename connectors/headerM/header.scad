@@ -19,7 +19,7 @@ module pin(h_dia=0.9, p_len=6, shape=true) {
 	}
 
 	else {													// Subtract material
-		translate([0, 0, -pin_b_len]) cylinder(r=(h_dia / 2), h=(pin_b_len + sup_hei + p_len));
+		translate([0, 0, -(pin_b_len + pad)]) cylinder(r=(h_dia / 2), h=(pin_b_len + sup_hei + p_len + (pad * 2)));
 	}
 }
 
